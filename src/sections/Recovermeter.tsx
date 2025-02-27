@@ -18,7 +18,7 @@ export const Recovermeter = () => {
             Valores acumulados até novembro/2024
           </p>
           <div className="mt-24 flex flex-col md:flex-row gap-6 w-full mx-auto items-center justify-center">
-            <a href="#" className="bg-backfore text-background-typography tracking-wide font-medium rounded-xl px-6.5 py-3.5">
+            <a href="#" className="bg-backfore text-foreground-typography tracking-wide font-medium rounded-xl px-6.5 py-3.5">
               Conhecer todos os serviços</a>
           </div>
         </div>

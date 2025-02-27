@@ -21,7 +21,7 @@ const resources = [
 export const Header = () => {
   return (
     <Popover className="fixed w-full top-0 bg-background z-10">
-      <div className="relative flex items-center justify-between p-6 max-w-7xl mx-auto w-full">
+      <div className="relative flex items-center justify-between px-6 py-4 max-w-7xl mx-auto w-full">
         <a href="#" className="z-50">
           <span className="sr-only">Grupo Palin & Martins</span>
           <img alt="Logo" src="/images/palin-martins-white.png" className="h-16 w-auto sm:h-20" />
