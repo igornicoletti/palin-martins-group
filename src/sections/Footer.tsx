@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="w-full max-w-7xl mx-auto px-6 lg:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 md:gap-24">
           <a href="/" className="whitespace-nowrap">
-            <img src="/images/palin-martins-white.png" alt={footerData.company} className="h-16" />
+            <img src="/images/logo-symbol.png" alt={footerData.company} className="h-20" />
           </a>
           <div className="col-span-2 flex flex-col sm:flex-row gap-16 justify-between">
             {footerData.sections.map((section, index) => (
@@ -27,10 +27,10 @@ export const Footer = () => {
           <span className="order-2 md:order-1 font-light text-foreground-typography/75 md:text-center">
             {footerData.copyright}
           </span>
-          <div className="order-1 md:order-2 flex md:mt-0 space-x-8 md:justify-center">
+          <div className="order-1 md:order-2 flex md:mt-0 space-x-6 md:justify-center">
             {footerData.socialLinks.map((social, index) => (
-              <a key={index} href={social.href} className="text-foreground-typography hover:text-palin">
-                <social.icon aria-hidden="true" weight='duotone' className="size-5 " />
+              <a key={index} href={social.href} className="text-foreground-typography/50 hover:text-palin">
+                <social.icon aria-hidden="true" weight='duotone' className="size-6" />
               </a>
             ))}
           </div>

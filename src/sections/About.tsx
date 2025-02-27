@@ -35,9 +35,9 @@ export const About = () => {
           </p>
         </div>
         <div className="mt-24 grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-2xl mx-auto text-center items-center justify-center">
-          <a href="#" className="bg-palin text-foreground-typography tracking-wide font-medium rounded-xl px-6 py-3">
+          <a href="#" className="bg-palin text-background-typography tracking-wide font-medium rounded-xl px-6 py-3">
             Entrar em contato</a>
-          <a href="#" className="bg-backfore text-foreground-typography tracking-wide font-medium rounded-xl px-6.5 py-3.5">
+          <a href="#" className="bg-backfore text-background-typography tracking-wide font-medium rounded-xl px-6.5 py-3.5">
             Conhecer os serviços</a>
         </div>
       </div>

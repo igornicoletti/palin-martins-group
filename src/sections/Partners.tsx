@@ -2,16 +2,16 @@ import { partnersData } from '@/data'
 
 export const Partners = () => {
   return (
-    <section className="bg-foreground py-24 lg:py-32">
+    <section className="bg-backfore py-24 lg:py-32">
       <div className="px-6 md:px-10">
         <div className="grid grid-cols-1 gap-24">
           <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start">
             <div className="lg:sticky lg:top-24 self-start lg:text-right">
-              <h2 className="text-6xl sm:text-7xl font-light leading-none tracking-wide text-background-typography">
-                <span className="text-gradient-secundary">Nossos <br />clientes nos <br />fazem GRANDES</span>
+              <h2 className="text-6xl sm:text-7xl font-light leading-none tracking-wide text-foreground-typography">
+                <span className="text-foreground-typography">Nossos <br />clientes nos <br />fazem GRANDES</span>
               </h2>
             </div>
-            <div className="text-base md:text-lg xl:text-lg font-light leading-relaxed tracking-wide text-background-typography space-y-4">
+            <div className="text-base md:text-lg xl:text-lg font-light leading-relaxed tracking-wide text-foreground-typography space-y-4">
               <p>
                 Com mais de <span className="font-normal">20 anos de experiência</span>, a Palin & Martins é uma
                 <span className="font-normal"> consultoria tributária de referência</span>, localizada em São José do Rio Preto, São Paulo.
