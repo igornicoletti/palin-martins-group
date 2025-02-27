@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'C6 Sans Display';
+    src: url('/fonts/C6SansDisplay-SemiBold.eot');
+    src: local('C6 Sans Display SemiBold'), local('C6SansDisplay-SemiBold'),
+        url('/fonts/C6SansDisplay-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/C6SansDisplay-SemiBold.woff2') format('woff2'),
+        url('/fonts/C6SansDisplay-SemiBold.woff') format('woff'),
+        url('/fonts/C6SansDisplay-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'C6 Sans Display';
+    src: url('/fonts/C6SansDisplay-Regular.eot');
+    src: local('C6 Sans Display Regular'), local('C6SansDisplay-Regular'),
+        url('/fonts/C6SansDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/C6SansDisplay-Regular.woff2') format('woff2'),
+        url('/fonts/C6SansDisplay-Regular.woff') format('woff'),
+        url('/fonts/C6SansDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'C6 Sans Display';
+    src: url('/fonts/C6SansDisplay-Bold.eot');
+    src: local('C6 Sans Display Bold'), local('C6SansDisplay-Bold'),
+        url('/fonts/C6SansDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/C6SansDisplay-Bold.woff2') format('woff2'),
+        url('/fonts/C6SansDisplay-Bold.woff') format('woff'),
+        url('/fonts/C6SansDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'C6 Sans Display';
+    src: url('/fonts/C6SansDisplay-Medium.eot');
+    src: local('C6 Sans Display Medium'), local('C6SansDisplay-Medium'),
+        url('/fonts/C6SansDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/C6SansDisplay-Medium.woff2') format('woff2'),
+        url('/fonts/C6SansDisplay-Medium.woff') format('woff'),
+        url('/fonts/C6SansDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'C6 Sans Display';
+    src: url('/fonts/C6SansDisplay-Light.eot');
+    src: local('C6 Sans Display Light'), local('C6SansDisplay-Light'),
+        url('/fonts/C6SansDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/C6SansDisplay-Light.woff2') format('woff2'),
+        url('/fonts/C6SansDisplay-Light.woff') format('woff'),
+        url('/fonts/C6SansDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}

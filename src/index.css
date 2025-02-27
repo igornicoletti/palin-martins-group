@@ -1,0 +1,68 @@
+@import url('/fonts/stylesheet.css');
+
+/*
+---break---
+ */
+@import 'tailwindcss';
+
+/*
+---break---
+ */
+ @custom-variant dark (&:where(.dark, .dark *));
+
+/*
+---break---
+ */
+@layer base {
+  body {
+    scroll-behavior: smooth;
+    font-family: 'C6 Sans Display', sans-serif !important;
+  }
+  .text-gradient-primary {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(91deg, #AA7625 19.3%, #FAD371 75%);
+  }
+  .text-gradient-secundary {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(339.66deg, #313940 -6.69%, #747D86 46.29%);
+  }
+}
+
+:root {
+  --palin: hsl(50, 48%, 56%);
+  --background:  hsl(0, 0%, 100%);
+  --foreground: hsl(0, 0%, 7%);
+  --background-typography:  hsl(0, 0%, 98%);
+  --foreground-typography: hsl(0, 0%, 14%);
+  --backfore: hsl(0, 0%, 14%);
+}
+
+.dark {
+  --palin: hsl(50, 48%, 56%);
+  --background: hsl(0, 0%, 7%);
+  --foreground:  hsl(0, 0%, 100%);
+  --background-typography: hsl(0, 0%, 14%);
+  --foreground-typography:  hsl(0, 0%, 98%);
+  --backfore: hsl(0, 0%, 14%);
+}
+
+@theme {
+  --color-palin: var(--palin);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-background-typography: var(--background-typography);
+  --color-foreground-typography: var(--foreground-typography);
+  --color-backfore: var(--backfore);
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 80s linear infinite; /* Ajuste a velocidade conforme necessário */
+}
