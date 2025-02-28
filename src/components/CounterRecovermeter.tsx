@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from "react"
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 
 type CounterProps = {
   duration?: number
@@ -6,16 +6,16 @@ type CounterProps = {
 
 const credits = [
   {
-    label: "Créditos de produtores rurais recuperados desde 2023",
-    value: "32.124.459,51"
+    label: 'Créditos de produtores rurais recuperados desde 2023',
+    value: '32.124.459,51'
   },
   {
-    label: "Créditos recuperados de tributos federais",
-    value: "42.838.083,98"
+    label: 'Créditos recuperados de tributos federais',
+    value: '42.838.083,98'
   },
   {
-    label: "Créditos de ICMS vendidos pela Palin desde 2014",
-    value: "92.761.131,55"
+    label: 'Créditos de ICMS vendidos pela Palin desde 2014',
+    value: '92.761.131,55'
   }
 ] as const
 
@@ -25,7 +25,7 @@ export const CounterRecovermeter = ({ duration = 1500 }: CounterProps) => {
   const sectionRef = useRef<HTMLDivElement>(null)
 
   const parseNumber = (value: string) =>
-    parseFloat(value.replace(/\./g, "").replace(",", "."))
+    parseFloat(value.replace(/\./g, '').replace(',', '.'))
 
   const totalCredits = useMemo(() =>
     credits.reduce((acc, { value }) => acc + parseNumber(value), 0), [])
@@ -57,6 +57,6 @@ export const CounterRecovermeter = ({ duration = 1500 }: CounterProps) => {
   }, [animateCounter, totalCredits, duration])
 
   return (
-    <p ref={sectionRef}>R${count.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</p>
+    <p ref={sectionRef}>R${count.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</p>
   )
 }

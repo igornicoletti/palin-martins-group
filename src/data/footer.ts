@@ -35,8 +35,8 @@ export const footerData = {
     { icon: InstagramLogo, href: 'https://www.instagram.com/palin.martins/' },
     { icon: YoutubeLogo, href: 'https://www.youtube.com/@PalineMartins' },
     { icon: LinkedinLogo, href: 'https://www.linkedin.com/in/palinemartins/' },
-    { icon: WhatsappLogo, href: "#" },
+    { icon: WhatsappLogo, href: '#' },
   ],
-  company: "PALIN&MARTINS",
-  copyright: "© 2025 PALIN&MARTINS."
+  company: 'PALIN&MARTINS',
+  copyright: '© 2025 PALIN&MARTINS.'
 }

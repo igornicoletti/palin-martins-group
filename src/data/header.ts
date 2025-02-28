@@ -1,4 +1,4 @@
-import { Briefcase, Buildings, ClipboardText, CurrencyDollar, FileText, Info, Phone, ShieldCheck } from '@phosphor-icons/react'
+import { Briefcase, Buildings, ClipboardText, FacebookLogo, Info, InstagramLogo, LinkedinLogo, Phone, WhatsappLogo, YoutubeLogo } from '@phosphor-icons/react'
 
 export const headerData = {
   institucional: [
@@ -8,11 +8,13 @@ export const headerData = {
     { name: 'Carreiras', description: 'Faça parte do nosso time.', href: '/carreiras', icon: Briefcase },
     { name: 'Contato', description: 'Fale conosco.', href: '/contato', icon: Phone },
     { name: 'Dúvidas', description: 'Perguntas frequentes.', href: '/duvidas', icon: Info },
+
   ],
-  serviços: [
-    { name: 'Consultoria Tributária', description: 'Soluções estratégicas para sua empresa.', href: '/servicos', icon: ClipboardText },
-    { name: 'Recuperação de Tributos Federais', description: 'Maximize seus créditos fiscais.', href: '/servicos', icon: CurrencyDollar },
-    { name: 'Recuperação de Créditos de ICMS', description: 'Aproveite oportunidades tributárias.', href: '/servicos', icon: FileText },
-    { name: 'Compliance Tributário', description: 'Assegure conformidade e segurança.', href: '/servicos', icon: ShieldCheck },
+  resources: [
+    { icon: FacebookLogo, href: 'https://web.facebook.com/PalineMartins?locale=pt_BR' },
+    { icon: InstagramLogo, href: 'https://www.instagram.com/palin.martins/' },
+    { icon: YoutubeLogo, href: 'https://www.youtube.com/@PalineMartins' },
+    { icon: LinkedinLogo, href: 'https://www.linkedin.com/in/palinemartins/' },
+    { icon: WhatsappLogo, href: '#' },
   ],
 }
