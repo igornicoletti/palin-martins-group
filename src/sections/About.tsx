@@ -25,7 +25,7 @@ export const About = () => {
 
   return (
     <section className="bg-background min-h-screen flex flex-col justify-center relative">
-      <div className="px-6 md:px-10">
+      <div className="px-6 md:px-10 pt-24">
         <div className="w-full mx-auto text-center">
           <h2 className="text-4xl md:text-7xl font-light leading-tight tracking-wide text-foreground-typography">
             Soluções estratégicas em <span className="text-gradient-primary"><br />Tributação e Compliance</span>
@@ -34,7 +34,7 @@ export const About = () => {
             Nos concentramos em mercados onde tecnologia e inovação podem desbloquear valor a longo prazo.
           </p>
         </div>
-        <div className="mt-24 grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-2xl mx-auto text-center items-center justify-center">
+        <div className="mt-16 md:mt-24 grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-2xl mx-auto text-center items-center justify-center">
           <a href="#" className="bg-palin text-foreground-typography tracking-wide font-medium rounded-xl px-6 py-3">
             Entrar em contato</a>
           <a href="#" className="bg-backfore text-foreground-typography tracking-wide font-medium rounded-xl px-6.5 py-3.5">
